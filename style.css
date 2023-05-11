@@ -1,0 +1,107 @@
+body {
+  /* background-color: rgb(255, 233, 195, 0.5); */
+  /* background-image: url('https://wallpapers.com/wallpapers/art-deco-computer-iamzh9j3tw6s1vi0.html?embed=true'); */
+  color:rgb(122, 78, 58);
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+h1, h2 {
+  color:rgb(79, 77, 113);
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  color: rgb(191, 155, 124, 0.8);
+}
+
+a:hover{
+  color: rgb(77, 100, 113, 0.8);
+  transition: 0.3s;
+}
+
+button{
+  color:antiquewhite;
+  background-color: rgb(77, 100, 113, 0.8);
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 150px;
+}
+
+button:hover{
+  background-color:rgb(79, 77, 113);
+  transition: 0.3s;
+  /* align-self: center; */
+}
+
+.container{
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.deco{
+  /* background-color: black; */
+  background-image: url('images/6159380.jpg');
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+.card{
+  background-color: rgb(250, 239, 224);
+  padding: 50px;
+  border-radius: 30px;
+  width: 450px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.dark-shadow{
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, .5);
+}
+.light-shadow{
+  box-shadow: 0px 0px 30px rgb(0, 0, 0, .2);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#profile {
+  width: 400px;
+  border-radius: 100px;
+  /* align-self: center; */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
